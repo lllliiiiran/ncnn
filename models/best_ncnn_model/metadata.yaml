@@ -1,0 +1,44 @@
+description: Ultralytics YOLO26n-obb model trained on /home/liran/projects/ultralytics/yaml/adult_pose_obb_restructured.yaml
+author: Ultralytics
+date: '2026-11-02T15:08:56.217677'
+version: 8.4.70
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: obb
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: background
+  1: eye_close
+  2: eye_open
+  3: mouth
+  4: nose
+  5: ear
+  6: forehead
+  7: front_head
+  8: side_head
+  9: top_head
+  10: split_up_milk
+  11: baby_hand
+  12: baby_chin
+  13: baby_chest
+  14: baby_foot
+  15: baby_leg
+  16: baby_full_body
+  17: baby_coverd_full_body
+  18: baby_hat
+  19: baby_blinder
+  20: baby_arm
+  21: parents_hand
+  22: parents_body
+  23: supine
+  24: prone
+  25: lateral
+args:
+  batch: 1
+  half: false
+channels: 3
+end2end: false
